@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel='stylesheet' href='./styles/index.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+</head>
+<body>
+
+    <header class='header'>
+        <div class="container">
+
+            <div class="container__wrapper">
+                <dib class="brand">
+                    <h1><span class="highlight">Acme</span> Web Design</h1>
+                </dib>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="index.html">home</a></li>
+                        <li class="menu__item current"><a href="about.html">about</a></li>
+                        <li class="menu__item"><a href="services.html">services</a></li>
+                    </ul>
+                    <div class="login">
+                        <button class="login__btn" id="login">login</button>
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i> 
+                    </div>
+                    <div class="toggle-btn">
+                        <span class="toggle-btn__item"></span>
+                        <span class="toggle-btn__item"></span>
+                        <span class="toggle-btn__item"></span>                           
+                    </div>                        
+                </nav>
+            </div>               
+        </div>
+    </header>
+
+
+
+    <section class="forms">
+
+        <div class="signin">
+            <div class="signin__content">           
+                <div class="signin__header">
+                    <h2 class="signin__tittle">Login</h2>
+                    <div class="signin__btn  signin__btn_close">
+                        <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                    </div> 
+                </div>
+
+                <form action="" class="signin__form" id="signin__form">
+                    <div class="signin__field field">
+                        <input type="email" id="email" placeholder="Enter email">
+                    </div>
+
+                    <div class="signin__field eye-icon field">
+                        <input type="password" id="password" placeholder="Enter password">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
+
+                    <div class="signin__field password-field">
+                        <a href="">Forgot password</a>
+                    </div>
+
+                    <div class="signin__field field">
+                        <button>Login</button>
+                    </div>
+                </form>  
+                
+                <div class="form-link">
+                    <span>Don't have an account?<a href="#" class=" link signup-link">Sign up</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="facebook media-options__field">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="google media-options__field">
+                    <img src="./img/free-icon-google-symbol-2875404 (1).png" class="google__img" alt="">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="signup hide">
+            <div class="signup__content">
+                <div class="signup__header">
+                    <h2 class="signup__tittle">Signup</h2>
+                    <div class="signup__btn signup__btn_close">
+                        <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                    </div> 
+                </div>
+
+                <form action="" class="signup__form" id="signup__form">
+                    <div class="signup__field field">
+                        <input type="email" id="email" placeholder="Enter email">
+                    </div>
+
+                    <div class="signup__field eye-icon field">
+                        <input type="password" id="password" placeholder="Enter password">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
+
+                    <div class="signup__field eye-icon field">
+                        <input type="password" id="password" placeholder="Confirm password">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
+
+                    <div class="signup__field field">
+                        <button>Sign up</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account?<a href="#" class=" link signin-link">Login</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="facebook media-options__field">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="google media-options__field">
+                    <img src="./img/free-icon-google-symbol-2875404 (1).png" class="google__img" alt="">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class='main'></main>
+
+    <footer class='footer'>
+        <div class="container">
+            <p class="footer__text">Acme Web Design, Copyright &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src='js/script.js'></script>
+</body>
+</html>
